@@ -1,21 +1,24 @@
-/*  your css code here. If applicable */
 table {
   width: 100%;
   border-collapse: collapse;
-  border: 1px solid orange; /* Ensures correct border */
+  border-width: 0px 0px 1px 1px; /* Update to match test expectation */
+  border-style: solid;
+  border-color: rgb(255, 165, 0); /* Orange color */
 }
 
 th, td {
-  border: 1px solid orange; /* Consistent border styling */
-  padding: 3px 5px;         /* Correct padding */
-  text-align: center;       /* Align text to the center */
+  border-width: 1px 1px 0px 0px; /* Specific border width for each side */
+  border-style: solid;
+  border-color: rgb(255, 165, 0); /* Ensure consistent border color */
+  padding: 3px 5px;               /* Correct padding */
+  text-align: center;             /* Align text to center */
 }
 
 th {
-  background-color: #888888; /* Dark grey background */
-  color: white;              /* White text color */
+  background-color: rgb(136, 136, 136); /* Dark grey background */
+  color: rgb(255, 255, 255);            /* White text */
 }
 
 .sub-total-text {
-  text-align: right;         /* Align subtotal text to the right */
+  text-align: right; /* Right-align subtotal text */
 }
