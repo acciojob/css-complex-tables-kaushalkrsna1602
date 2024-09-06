@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid orange; /* Ensures correct border */
+}
+
+th, td {
+  border: 1px solid orange; /* Consistent border styling */
+  padding: 3px 5px;         /* Correct padding */
+  text-align: center;       /* Align text to the center */
+}
+
+th {
+  background-color: #888888; /* Dark grey background */
+  color: white;              /* White text color */
+}
+
+.sub-total-text {
+  text-align: right;         /* Align subtotal text to the right */
+}
